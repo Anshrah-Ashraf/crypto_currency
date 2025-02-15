@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* globals.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1E1E2F; /* Dark grey background */
+  color: #E0E0E0; /* Light grey text */
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #4C9FFF; /* Blue header */
+  text-align: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #555555; /* Dim grey underline */
+  padding-bottom: 0.5rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #2A2A40; /* Slightly lighter dark grey */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.coin-data {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.coin-data li {
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #555555; /* Divider between items */
+  display: flex;
+  justify-content: space-between;
+}
+
+.coin-data li:last-child {
+  border-bottom: none; /* No divider for the last item */
+}
+
+.coin-data span {
+  font-weight: bold;
+  color: #00FFAB; /* Lime green for values */
+}
